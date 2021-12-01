@@ -57,7 +57,7 @@ class WeatherActivity : AppCompatActivity() {
         })
         swipeRefresh.setColorSchemeResources(R.color.colorPrimary)
         refreshWeather()
-        swipeRefresh.setOnClickListener {
+        swipeRefresh.setOnRefreshListener {
             refreshWeather()
         }
 
